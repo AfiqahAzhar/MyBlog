@@ -1,27 +1,44 @@
 const CACHE_VERSION = 1;
 
 const BASE_CACHE_FILES = [
-    '/style.css',
-    '/script.js',
-    '/search.json',
-    '/manifest.json',
-    '/favicon.png',
+    '/default/baseof.html',
+    '/default/list.html',
+    '/default/single.html',
+    '/partials/footer.html',
+    '/partials/seo.html',
+    '/partials/sidebar.html',
+    '/partials/theme-color',
+    '404.html',
+    'index.html',
 ];
 
 const OFFLINE_CACHE_FILES = [
-    '/style.css',
-    '/script.js',
-    '/offline/index.html',
+    '/default/baseof.html',
+    '/default/list.html',
+    '/default/single.html',
+    '/partials/footer.html',
+    '/partials/seo.html',
+    '/partials/sidebar.html',
+    '/partials/theme-color',
+    '404.html',
+    'index.html',
 ];
+
 
 const NOT_FOUND_CACHE_FILES = [
-    '/style.css',
-    '/script.js',
-    '/404.html',
+    '/default/baseof.html',
+    '/default/list.html',
+    '/default/single.html',
+    '/partials/footer.html',
+    '/partials/seo.html',
+    '/partials/sidebar.html',
+    '/partials/theme-color',
+    '404.html',
+    'index.html',
 ];
 
-const OFFLINE_PAGE = '/offline/index.html';
-const NOT_FOUND_PAGE = '/404.html';
+const OFFLINE_PAGE = 'index.html';
+const NOT_FOUND_PAGE = '404.html';
 
 const CACHE_VERSIONS = {
     assets: 'assets-v' + CACHE_VERSION,
