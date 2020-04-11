@@ -11,7 +11,6 @@
               .then(function(registration) {
                   console.log('Service Worker Ready');
               });
-      }
   </script>
   
 const CACHE_VERSION = 1;
