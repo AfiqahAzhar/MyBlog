@@ -10,6 +10,7 @@ const cacheAssets = [
     '/partials/theme-color',
     '/404.html',
     '/index.html',
+    '/manifest.json'
 ];
 
 // Call Install Event
