@@ -62,7 +62,9 @@
 
   {{ template "_internal/google_analytics_async.html" . }}
 
-  <script>
+</body>
+
+<script>
       if('serviceWorker' in navigator) {
           navigator.serviceWorker
               .register('/sw.js', { scope: '/' })
@@ -77,5 +79,4 @@
               });
       }
   </script>
-</body>
 </html>
