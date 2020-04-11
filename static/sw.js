@@ -8,8 +8,8 @@ const BASE_CACHE_FILES = [
     '/partials/seo.html',
     '/partials/sidebar.html',
     '/partials/theme-color',
-    '404.html',
     'index.html',
+    '/manifest.json'
 ];
 
 const OFFLINE_CACHE_FILES = [
@@ -20,21 +20,12 @@ const OFFLINE_CACHE_FILES = [
     '/partials/seo.html',
     '/partials/sidebar.html',
     '/partials/theme-color',
-    '404.html',
     'index.html',
 ];
 
 
 const NOT_FOUND_CACHE_FILES = [
-    '/default/baseof.html',
-    '/default/list.html',
-    '/default/single.html',
-    '/partials/footer.html',
-    '/partials/seo.html',
-    '/partials/sidebar.html',
-    '/partials/theme-color',
-    '404.html',
-    'index.html',
+    '404.html'
 ];
 
 const OFFLINE_PAGE = 'index.html';
